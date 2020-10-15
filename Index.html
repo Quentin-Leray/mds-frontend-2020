@@ -3,62 +3,165 @@
 	
   <head>
     <meta charset="UTF-8">
-    <title>Portfolio Quentin LERAY - Webmarketer</title>
+	<title>Portfolio Quentin LERAY - Webmarketer</title>
+	<link href="Style.css" rel="stylesheet">
+	<link href = "https://fonts.googleapis.com/css2? family = Montserrat: wght @ 700 & display = swap" rel = "stylesheet">
   </head>
-  <body>
+
+  <body style="background-color:#B6B2B1">
 	<header>
-		<h1>Quentin LERAY</h1>
-		<img src="../projet/LogoNBA.png" alt="LogoNBA">
-		<h2> La routourne va tourner !</h2>
-			<p> Salut c'est Quentin, j'ai 23 ans. Je suis en 3e année de Webmarketing chez MyDigitalSchool.</p>
-			<ul>
-				<li>Rennes</li>
-				<li>23 ans</li>
-				<li>Licence Management du Sport</li>
-				<li>Chargé de communication chez padamRP</li>
-			</ul>
+		
+			<h1>Portfolio - Quentin LERAY</h1>
+
+			<nav>
+				<ul class= "burger">
+					<button><li><a href="#">Accueil</a></li></button>
+					<button><li><a href="#">Création</a></li></button>
+					<button><li><a href="CV.html">CV</a></li></button>
+				</ul>
+			</nav>
+
+			<img src="LogoNBA.png" alt="LogoNBA">
+			
+		<div class="presentation">
+			<h2>Présentation</h2>
+				<p>Je m'appelle Quentin LERAY. Je suis en 3e année de Webmarketing chez MyDigitalSchool, alternant en tant que chargé de communication chez padamRP. 
+					Originaire de Rennes, j'ai effectué tout mon précédent cursus dans ma ville natale.
+					Fan de sport dans toutes ses formes, je pratique le football et porte un regard assidu sur la plupart des autres sports.
+				</p>
+				<br>
+				<div class="kb">"Il n'y a pas de zone grise, il n'y a pas de presque. Gagner est la priorité." Kobe Bryant</div>
+		</div>					
 	</header>
+
 <main>
 	<section>
-		<h2> Mon expertise basket</h2>
-		<h3>Le contenu de l'expertise</h3>
-			<dl>
-				<ul>
-					<li><dt>Conférence NBA</dt></li>
-						<ul><li>30 équipes divisées en deux grands ensembles, Est et Ouest. 
+		<div class="grisfonce">
+			<h2> Experiences professionnelles</h2>
+				<ul class="here">	
+					<li><b>Chargé de communication - padamRP (Septembre 2020 à maintenant)</b>
+						<ul class="tick"><li>Création graphique</li> 
+							<li>Community management</li> 
+							<li>Gestion de site internet</li>
+							<li>Relation media</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">
+					<li><b>Employé de commerce - Leclerc Pleumeleuc (Mai 2019 à Août 2020)</b>
+						<ul class="tick"><li>Job étudiant</li>
+							<li>Mise en rayon, contact avec la clientèle</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">
+					<li><b>Stage - Office Jacquolandin des Sports (Novembre 2019)</b>
+						<ul class="tick"><li>Suivi et aide au travail de management, communication et événementiel auprès de la directrice de l'établissement.</li>
+							<li>Création d'un événement local (Communication et logistique)</li>
+							<li>Recherche de partenaires.</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">	
+					<li><b>Création événement STAPS - "DANSE TON FITNESS" (Année 2019/2020)</b>
+						<ul class="tick"><li>Création d'un événement de A à Z.</li> 
+							<li>Démarchage sponsors / partenaires</li> 
+							<li>Communication (flyers, affiches, réseaux sociaux, etc) Aftermovie - Budgétisation - Logistique</li>
+							<li>(Résultats : Environ 700€ récoltés pour le Téléthon.)</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">
+					<li><b>Stage - Intersport Pacé (Février 2018)</b>
+						<ul class="tick"><li>Suivi du poste de manager</li>
+							<li>Première expérience de management</li>
+						</ul>
+					</li>
+				</ul>
+				<button><a href="../projet/CV-QuentinLERAY.pdf">Mon CV</a></button>
+		</div>		
+	</section>
+
+	<section>
+		<div class="grisfonce">
+			<h2> Formations</h2>
+				<ul class="here">	
+					<li><b>Bachelor Webmarketing et social media - My Digital School, Nantes (En cours)</b>
+						<ul class="tick"><li>Webmarketing</li> 
+							<li>Rédaction web</li> 
+							<li>Techniques de production</li>
+							<li>Social media</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">
+					<li><b>Licence management du sport - Université Rennes 2 (2020)</b>
+						<ul class="tick"><li>Développement de compétence en management, communication, événementiel et marketing du sport</li>
+							<li>Développement de connaissances sportives</li>
+						</ul>
+					</li>		
+				</ul>
+				<ul class="here">
+					<li><b>Baccalauréat économique et social - Lycée René Cassin, Montfort </b>
+						<ul class="tick"><li>Développement de connaissance en sociologie</li>
+						<li>Développement de connaissances en économie</li>
+					</ul>
+					</li>		
+				</ul>
+		</div>
+	</section>			
+
+	<section>
+		<div class="grisfonce">
+			<h2> Mon expertise basket</h2>
+				<ul class="here">
+					<li><b>Conférence NBA</b>
+						<ul class="tick"><li>30 équipes divisées en deux grands ensembles, Est et Ouest.</li>
 							<li>15 équipes dans chaque conférences, elles-mêmes divisées en 3 divisions chacunes.</li>
 							<li>Pour limiter les longs déplacements, les équipes de conférences différentes ne s’affrontent que deux fois dans la saison, contre trois fois pour la même conférence et quatre fois pour la même division.</li>
 						</ul>
+					</li>		
 				</ul>
-				<ul>	
-					<li><dt>Division</dt></li>
-						<ul><li>Il y a six divisions dans la NBA, trois par conférence. Toutes comportent cinq équipes.</li> 
+				<ul class="here">	
+					<li><b>Division</b>
+						<ul class="tick"><li>Il y a six divisions dans la NBA, trois par conférence. Toutes comportent cinq équipes.</li> 
 							<li>On retrouve à l’Ouest, la division Nord-Ouest (avec le Thunder de Chris Paul ou le Jazz de Rudy Gobert..), la division Pacifique (avec les Warriors de Curry, les Lakers de LeBron James) et la division Sud-Ouest (les Spurs de Tony P.., ah non pas habitué désolé, les Rockets de James Harden).</li> 
 							<li>À l’Est, il y a la division Atlantique (les Celtics de Walker, les Knicks de Ntilikina), la division Centrale (les Bulls de LaVine, les Bucks de Antetokounmpo) et enfin la division Sud-Est (avec le Heat de Butler ou les Hornets de Batum).</li>
 						</ul>
+					</li>		
 				</ul>
-				<ul>
-					<li><dt>Lakers</dt></li>
-						<ul><li>La meilleure équipe de Los Angeles, portée par LeBron James et Anthony Davis.</li>
+				<ul class="here">
+					<li><b>Lakers</b>
+						<ul class="tick"><li>La meilleure équipe de Los Angeles, portée par LeBron James et Anthony Davis.</li>
 							<li>Équipe chamionne en titre !</li>
 						</ul>
+					</li>
 				</ul>
-			</dl>
-				<button><a href="https://trashtalk.co/">Plus d'infos</a></button>
+				<button><a href="https://trashtalk.co/">Plus d'infos ici -></a></button>
+		</div>		
 	</section>
-</main>
-		<h2> Mon expérience</h2>
-		<p>Le contenu de mon expérience</p>
-			<ul>
-				<li>Ma lettre de motivation</li>
-				<li><a href="../projet/CV-QuentinLERAY.pdf">Mon CV</a></li>
-			</ul>
-		
+
+</main>		
 
 
 	<footer>
-		Coordonnées
-		Copyright
+		<ul class="here">
+			<li>Contact :
+				<ul class="tick"><li>leray.quentin@yahoo.com</li>
+					<li>06.99.49.52.84</li>
+					<li>5 allée des mimosas, 35137 Bédée</li>
+				</ul> 	
+			</li>
+		</ul>
+		<ul class="here">
+			<li>Réseaux sociaux :
+				<ul class="tick"><li>Twitter : Quentin_097</li>
+					<li>Linkedin : </li>
+					<li>Instagram :</li>
+				</ul> 	
+			</li>
+		</ul>
+		
 	</footer>
 
   </body>

@@ -1,0 +1,46 @@
+body{
+font-size: 100%;
+}
+.presentation{
+    background-color: #B6B2B1;
+    font-size: 1.3rem;
+    margin: 2rem;
+    padding: 3rem;
+}
+h1{
+    color:#86210B;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+.kb{
+    font-size: 2rem;
+    font-style: italic;
+}
+h2{
+    color:#86210B;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.here li{
+    color:#070606;
+    font-family: 'Montserrat', sans-serif;
+    list-style-image: url(point.svg);
+}
+.tick li{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    list-style-image: url(tick.svg);
+}
+.grisfonce{
+    background-color: #706D6D;
+    margin: 2rem;
+    padding: 3rem;
+}
+footer{
+    background-color: #86210B;
+    margin: 2rem;
+    padding: 1rem;
+}
